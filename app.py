@@ -75,7 +75,7 @@ if prompt:
         #     {"callback": [callback]}
         # )
         response = agent_chain.invoke(
-            {"chat_history": history.messages},
+            {"input": prompt, "chat_history": history.messages},
             {"callbacks": [callback]}
         )
         # history.add_ai_message(response)
