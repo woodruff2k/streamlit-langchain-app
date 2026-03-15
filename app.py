@@ -1,8 +1,8 @@
 # ssh -T git@github.com
 # streamlit run app.py --server.port 8080
 # !pip install langchain==0.1.14
-# !pip install langchain-community==0.0.30
 # !pip install langchain-openai==0.0.8
+# !pip install langchain-community==0.0.30
 # !pip install langchainhub duckduckgo-search wikipedia
 from langchain.memory import ConversationBufferMemory
 from langchain_community.chat_message_histories import StreamlitChatMessageHistory
